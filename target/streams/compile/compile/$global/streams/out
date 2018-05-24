@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/home/oracle/test/ScalaPlayTest/app/modules/MongoHelpers.scala:9:107: not found: type Document[0m
+[0m[[0m[31merror[0m] [0m[0m    implicit class DocumentObservable[C](val observable: Observable[Document]) extends ImplicitObservable[Document][0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/oracle/test/ScalaPlayTest/app/modules/MongoHelpers.scala:9:58: not found: type Observable[0m
+[0m[[0m[31merror[0m] [0m[0m    implicit class DocumentObservable[C](val observable: Observable[Document]) extends ImplicitObservable[Document][0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/oracle/test/ScalaPlayTest/app/modules/MongoHelpers.scala:10:89: trait ImplicitObservable takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    implicit class CompleteObservable[C](val observable: Observable[Completed]) extends ImplicitObservable[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/oracle/test/ScalaPlayTest/app/modules/MongoHelpers.scala:10:58: not found: type Observable[0m
+[0m[[0m[31merror[0m] [0m[0m    implicit class CompleteObservable[C](val observable: Observable[Completed]) extends ImplicitObservable[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/oracle/test/ScalaPlayTest/app/modules/MongoHelpers.scala:13:25: not found: type Observable[0m
+[0m[[0m[31merror[0m] [0m[0m        val observable: Observable[C][0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

@@ -44,8 +44,8 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue May 15 00:14:58 GMT 2018
-                  SOURCE: /work/play/myproject/app/views/index.scala.html
+                  DATE: Wed May 23 04:53:11 GMT 2018
+                  SOURCE: /home/oracle/test/ScalaPlayTest/app/views/index.scala.html
                   HASH: 7313b555cd9c1da14f9644f41fe56db8ad36829c
                   MATRIX: 729->1|840->19|867->21|898->44|937->46|966->49|1023->81|1050->88|1085->94
                   LINES: 21->1|26->2|27->3|27->3|27->3|28->4|29->5|29->5|30->6

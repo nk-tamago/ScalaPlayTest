@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/work/play/myproject/conf/routes
-// @DATE:Mon May 14 22:57:45 GMT 2018
+// @SOURCE:/home/oracle/test/ScalaPlayTest/conf/routes
+// @DATE:Wed May 23 04:53:11 GMT 2018
 
 package controllers;
 

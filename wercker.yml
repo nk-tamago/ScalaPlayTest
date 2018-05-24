@@ -1,0 +1,30 @@
+box: 
+   id: jpusk/playscala
+   tag: 0.1
+   ports:
+     - '9000'
+dev:
+   steps:
+    - script:
+         code:
+            sbt run
+
+build:
+   steps:
+    - script:
+         code: |
+            sbt compile
+
+deploy:
+   steps:
+    - script:
+         code: |
+            sbt compile
+    - internal/docker-push:
+        username: $USERNAME
+        password: $PASSWORD
+        repository: orashio/sbt-test
+        ports: "9000"
+        working-dir: /pipeline/source
+        cmd: sbt run
+
