@@ -17,9 +17,6 @@ build:
 
 deploy:
    steps:
-    - script:
-         code: |
-            sbt compile
     - internal/docker-push:
         username: $USERNAME
         password: $PASSWORD
