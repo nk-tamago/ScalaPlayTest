@@ -22,7 +22,7 @@ class HomeController @Inject()(cc: ControllerComponents) extends AbstractControl
    */
   def index() = Action { implicit request: Request[AnyContent] =>
     
-    val message="hello world"
+    val message="hello tamago"
     Ok(views.html.index(message))
   }
 }
